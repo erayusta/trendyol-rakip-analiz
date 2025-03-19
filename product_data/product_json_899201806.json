@@ -1,0 +1,1335 @@
+{
+  "configuration": {
+    "abTestingCookieName": "WebAbTesting",
+    "addReviewEnabled": false,
+    "addToBasketOnCheckoutgwEnabled": false,
+    "addToCollectionEnabled": true,
+    "alternativeVariantsEnabled": true,
+    "authorizedSellerBadgeUrl": "https://cdn.dsmcdn.com/web/production/authorized-seller-badge.webp",
+    "azDeliveryDateFeatureEnabled": true,
+    "azDeliveryEnabled": true,
+    "azDiscountMessage": "Azərbaycana özəl endirim",
+    "azDiscountedPriceBoxEnabled": true,
+    "azEligibleCookie": false,
+    "azPriceTooltipText": "Məhsul dəyərinin manat qarşılığı TCMB-dən qəbul edilən günlük dəyərlərə görə hesablanır və məlumat məqsədli olaraq təqdim edilir. Valyuta məzənnəsində gün içində baş verən dəyişikliklər dərhal ekranlarda əks olunmaya bilər.",
+    "azPromotionText": "Səbətdə tətbiq olunacaq!",
+    "azSelectedCookie": false,
+    "basketPreviewEnabled": false,
+    "basketRecoWidgetsByUxLayout": {
+      "Electronics - devices": {
+        "A": [
+          "Vas",
+          "Cross",
+          "Similar",
+          "Basket"
+        ],
+        "B": [
+          "Vas",
+          "Cross",
+          "Similar",
+          "Basket"
+        ]
+      },
+      "Electronics - longtail": {
+        "A": [
+          "Vas",
+          "Cross",
+          "Similar",
+          "Basket"
+        ],
+        "B": [
+          "Vas",
+          "Cross",
+          "Similar",
+          "Basket"
+        ]
+      },
+      "Ev": {
+        "A": [],
+        "B": [
+          "MerchantBased"
+        ]
+      },
+      "FMCG": {
+        "A": [],
+        "B": [
+          "MerchantBased"
+        ]
+      },
+      "Fashion": {
+        "A": [],
+        "B": [
+          "CompleteCombine",
+          "Cross",
+          "Similar",
+          "Basket"
+        ]
+      },
+      "General Merchandise": {
+        "A": [
+          "Vas",
+          "Cross",
+          "Similar",
+          "Basket"
+        ],
+        "B": [
+          "MerchantBased",
+          "Vas",
+          "Cross",
+          "Similar",
+          "Basket"
+        ]
+      },
+      "Hard Furniture": {
+        "A": [
+          "Vas",
+          "Cross",
+          "Similar",
+          "Basket"
+        ],
+        "B": [
+          "Vas",
+          "Cross",
+          "Similar",
+          "Basket"
+        ]
+      },
+      "Mobilya": {
+        "A": [
+          "Vas",
+          "Cross",
+          "Similar",
+          "Basket"
+        ],
+        "B": [
+          "Vas",
+          "Cross",
+          "Similar",
+          "Basket"
+        ]
+      },
+      "cosmetics": {
+        "A": [
+          "Vas",
+          "Cross",
+          "Similar",
+          "Basket"
+        ],
+        "B": [
+          "Vas",
+          "Cross",
+          "Similar",
+          "Basket"
+        ]
+      }
+    },
+    "basketSocialProofWording": "{0} kişinin sepetinde!",
+    "basketSuggestionGwUrl": "https://apigw.trendyol.com/discovery-web-websfxbasketsuggestion-santral",
+    "brandBasedCustomizationEnabled": true,
+    "buyMorePayLessPromotionsEnabled": true,
+    "buyMorePayLessPromotionsText": "Çok Al, Az Öde!",
+    "buyNowConfig": {
+      "colors": {
+        "background": "#FFFFFF",
+        "border": "#F27A1A",
+        "color": "#F27A1A"
+      },
+      "text": "Şimdi Al"
+    },
+    "buyNowEnabled": true,
+    "callToActions": [
+      {
+        "name": "CTA_PRODUCT_REVIEWS",
+        "selector": ".pr-rnr-w"
+      },
+      {
+        "name": "CTA_PRODUCT_DESC",
+        "selector": ".product-desc"
+      },
+      {
+        "name": "CTA_SIMILAR_PRODUCTS",
+        "selector": ".productDetail-Similar"
+      },
+      {
+        "name": "CTA_CROSS_PRODUCTS",
+        "selector": ".productDetail-Cross"
+      }
+    ],
+    "campaignPriceEnabled": true,
+    "canShowSizeChartButton": true,
+    "cashPriceInstallmentBannerContent": "{0} Karta özel",
+    "cashPriceInstallmentBannerEnabled": false,
+    "cashPriceInstallmentBannerTitle": "Peşin Fiyatına {0} Taksit",
+    "categoryIdsToBeHiddenForRunningOut": [],
+    "cdnUrl": "https://cdn.dsmcdn.com",
+    "channelId": "1",
+    "checkoutVasSantralUrl": "https://apigw.trendyol.com/discovery-web-websfxcheckoutvas-santral",
+    "claimInfoText": "15 gün içinde ücretsiz iade.",
+    "clientSideHtmlContentEnabled": true,
+    "clientSideReviewsEnabled": false,
+    "collectableCouponsEnabled": true,
+    "collectionRecommendationEnabled": true,
+    "collectionRecommendationServiceUrl": "https://apigw.trendyol.com/discovery-pdp-websfxcollectionreco-santral",
+    "complementaryProductsEnabled": true,
+    "completeTheLookFeatureEnabled": true,
+    "completeTheLookIntersectionAreaPadding": 5,
+    "completeTheLookService": "https://apigw.trendyol.com/discovery-pdp-websfxcompletethelook-santral",
+    "componentReadApiUrl": "http://discovery-pdp-component-read-service.external",
+    "consumerLendingColorEnabled": false,
+    "consumerLendingEnabledInChannelIDs": [
+      "1",
+      "8"
+    ],
+    "consumerLendingThreshold": 100,
+    "corporateInvoiceEnabled": true,
+    "corporateSalesUserSegmentId": "410750067",
+    "corporateSalesUserSegmentTag": "1",
+    "countryCode": "TR",
+    "couponBadgeEnabled": true,
+    "crossProductsEnabled": true,
+    "crossProductsTitle": "Bu Ürünü Alanlar Bunları da Aldı",
+    "crossRecoSocialProofEnabled": true,
+    "culture": "tr-TR",
+    "customizedBrandIds": [
+      "102989",
+      "101470"
+    ],
+    "defaultBrandCategoryCombinationImageUrl": "Assets/related-category-default-image.png",
+    "deliveryDateSantralUrl": "https://apigw.trendyol.com/discovery-pdp-websfxproductdeliverydate-santral",
+    "deliveryInfoCargoLogoEnabled": true,
+    "digitalGoodsDeliveryText": "1 saat içinde E-mail olarak gönderilecektir.",
+    "discoverWidgetTitle": "Trendyol'da Keşfet!",
+    "discovers": [
+      {
+        "image": "https://cdn.dsmcdn.com/ty126/web-pdp/cok_satanlar.png",
+        "link": "/sr/?fl=encoksatanurunler",
+        "name": "Sen de Al!"
+      },
+      {
+        "image": "https://cdn.dsmcdn.com/ty127/web-pdp/en_cok_sepete_eklenenler.png",
+        "link": "/sr?fl=encoksepeteeklenenurunler",
+        "name": "En Çok Sepete Eklenenler"
+      },
+      {
+        "image": "https://cdn.dsmcdn.com/ty127/web-pdp/en_begenilenler.png",
+        "link": "/sr?fl=encokfavorilenenurunler",
+        "name": "En Beğenilenler"
+      }
+    ],
+    "emergencyVasBoutiqueInformationText": "Ödeme ekranında kendi adresinizi seçebilirsiniz. Ürün seçtiğiniz adrese değil, afet bölgesine ulaştırılacaktır.",
+    "enabledShowQAForAllFulfilmentTypes": true,
+    "energyClassLabelCdnUrls": {
+      "A_DOUBLE_PLUS_E": {
+        "A": "https://cdn.dsmcdn.com/mnresize/50/50/mobile/enerjietiketi/(A++)-(E)_A.png",
+        "A_DOUBLE_PLUS": "https://cdn.dsmcdn.com/mnresize/50/50/mobile/enerjietiketi/(A++)-(E)_A++.png",
+        "A_PLUS": "https://cdn.dsmcdn.com/mnresize/50/50/mobile/enerjietiketi/(A++)-(E)_A+.png",
+        "B": "https://cdn.dsmcdn.com/mnresize/50/50/mobile/enerjietiketi/(A++)-(E)_B.png",
+        "C": "https://cdn.dsmcdn.com/mnresize/50/50/mobile/enerjietiketi/(A++)-(E)_C.png",
+        "D": "https://cdn.dsmcdn.com/mnresize/50/50/mobile/enerjietiketi/(A++)-(E)_D.png",
+        "E": "https://cdn.dsmcdn.com/mnresize/50/50/mobile/enerjietiketi/(A++)-(E)_E.png"
+      },
+      "A_G": {
+        "A": "https://cdn.dsmcdn.com/mnresize/50/50/mobile/enerjietiketi/(A)-(G)_A.png",
+        "B": "https://cdn.dsmcdn.com/mnresize/50/50/mobile/enerjietiketi/(A)-(G)_B.png",
+        "C": "https://cdn.dsmcdn.com/mnresize/50/50/mobile/enerjietiketi/(A)-(G)_C.png",
+        "D": "https://cdn.dsmcdn.com/mnresize/50/50/mobile/enerjietiketi/(A)-(G)_D.png",
+        "E": "https://cdn.dsmcdn.com/mnresize/50/50/mobile/enerjietiketi/(A)-(G)_E.png",
+        "F": "https://cdn.dsmcdn.com/mnresize/50/50/mobile/enerjietiketi/(A)-(G)_F.png",
+        "G": "https://cdn.dsmcdn.com/mnresize/50/50/mobile/enerjietiketi/(A)-(G)_G.png"
+      },
+      "A_PLUS_F": {
+        "A": "https://cdn.dsmcdn.com/mnresize/50/50/mobile/enerjietiketi/(A+)-(F)_A.png",
+        "A_PLUS": "https://cdn.dsmcdn.com/mnresize/50/50/mobile/enerjietiketi/(A+)-(F)_A+.png",
+        "B": "https://cdn.dsmcdn.com/mnresize/50/50/mobile/enerjietiketi/(A+)-(F)_B.png",
+        "C": "https://cdn.dsmcdn.com/mnresize/50/50/mobile/enerjietiketi/(A+)-(F)_C.png",
+        "D": "https://cdn.dsmcdn.com/mnresize/50/50/mobile/enerjietiketi/(A+)-(F)_D.png",
+        "E": "https://cdn.dsmcdn.com/mnresize/50/50/mobile/enerjietiketi/(A+)-(F)_E.png",
+        "F": "https://cdn.dsmcdn.com/mnresize/50/50/mobile/enerjietiketi/(A+)-(F)_F.png"
+      },
+      "A_TRIPLE_PLUS_D": {
+        "A": "https://cdn.dsmcdn.com/mnresize/50/50/mobile/enerjietiketi/(A+++)-(D)_A.png",
+        "A_DOUBLE_PLUS": "https://cdn.dsmcdn.com/mnresize/50/50/mobile/enerjietiketi/(A+++)-(D)_A++.png",
+        "A_PLUS": "https://cdn.dsmcdn.com/mnresize/50/50/mobile/enerjietiketi/(A+++)-(D)_A+.png",
+        "A_TRIPLE_PLUS": "https://cdn.dsmcdn.com/mnresize/50/50/mobile/enerjietiketi/(A+++)-(D)_A+++.png",
+        "B": "https://cdn.dsmcdn.com/mnresize/50/50/mobile/enerjietiketi/(A+++)-(D)_B.png",
+        "C": "https://cdn.dsmcdn.com/mnresize/50/50/mobile/enerjietiketi/(A+++)-(D)_C.png",
+        "D": "https://cdn.dsmcdn.com/mnresize/50/50/mobile/enerjietiketi/(A+++)-(D)_D.png"
+      }
+    },
+    "energyClassLabelEnabled": true,
+    "energyClassLabelIds": {
+      "A": "1771",
+      "A_DOUBLE_PLUS": "1769",
+      "A_DOUBLE_PLUS_E": "297334",
+      "A_G": "1199781",
+      "A_PLUS": "1768",
+      "A_PLUS_F": "297333",
+      "A_TRIPLE_PLUS": "1770",
+      "A_TRIPLE_PLUS_D": "297332",
+      "B": "1767",
+      "C": "1772",
+      "D": "22193",
+      "E": "22194",
+      "F": "22195",
+      "G": "318772"
+    },
+    "energyClassLabelImgId": 1149,
+    "energyClassLabelScopeId": 794,
+    "energyClassLabelTagId": 134,
+    "enhancedEcommerceEnabled": true,
+    "excludedVariantKeyIds": [
+      1115,
+      1116,
+      1148,
+      1149
+    ],
+    "featuredCardFavButtonEnabled": true,
+    "featuredPriceTooltipEnabled": true,
+    "feedbackExposedSFXFragmentEnabled": false,
+    "flashSalesTimeSlots": [
+      12,
+      15,
+      18,
+      21,
+      24,
+      3
+    ],
+    "generic1RecoSocialProofEnabled": true,
+    "generic2RecoSocialProofEnabled": true,
+    "genericRecoSliderEnabled": false,
+    "genericRecommendationEnabled": true,
+    "genericRecommendationMaxDataCount": 24,
+    "getNotifyMePreferencesFromMemberGw": true,
+    "hideInitialRatingValuesFromPdpEnabled": true,
+    "htmlContentCssUrl": "https://cdn.dsmcdn.com/mweb/production/main.be4f3b6e62dd77fccc78.css",
+    "htmlContentEnabled": true,
+    "htmlContentJsUrl": "https://cdn.dsmcdn.com/mweb/production/main.557ead4436e1bc2fada3.js",
+    "ignoredCorporateUXLayouts": [
+      "Fashion"
+    ],
+    "imageSocialProofEnabled": false,
+    "imageSocialProofWordings": {
+      "LAST_X_PRODUCT_TEXT": "Son {productCount} ürün! <b>{basketCount} kişinin</b> sepetinde, tükenmeden al!",
+      "RUNNING_OUT_TEXT": "Tükenmek üzere! <b>{basketCount} kişinin</b> sepetinde, hemen al!"
+    },
+    "infoForLongTermDelivery": "Ürün tedarik / üretim süresinin ardından kargolanacaktır.",
+    "infoForLongTermDeliveryBiggerThanMonth": "Bu ürün, siparişinize istinaden üretilmeye başlanacak olup üretim süresinin ardından kargoya verilecektir.",
+    "installmentStampAmountText": "9 TAKSİT",
+    "interestFreeInstallmentBannerContent": "Aylık {0}'den başlayan {1} aya varan taksit fırsatı",
+    "interestFreeInstallmentBannerEnabled": false,
+    "interestFreeInstallmentBannerTitle": "{0} Aya Varan Taksit Fırsatı",
+    "inventoryCenterSantralUrl": "https://apigw.trendyol.com/discovery-web-websfxinventorycenter-santral",
+    "ipAddress": "159.146.5.22",
+    "isAzNewFlowEnabled": true,
+    "isCorporateUser": false,
+    "isDynamicRender": false,
+    "isIgnoredDigitalGoodsDeliveryTextContentForEmergency": false,
+    "isIgnoredVasBoutiqueForEmergency": false,
+    "isInternational": false,
+    "isSellerAverageProductRatingEnabled": true,
+    "isTrendyolMilla": false,
+    "languageCode": "tr",
+    "lastProductCountAbTestValue": "A_0-0,B_0-100",
+    "lastProductNumber": 3,
+    "legalRequirementCacheDuration": 0,
+    "locationBasedEstimatedDeliveryEnabled": true,
+    "locationBasedSalesEnabled": true,
+    "lowestPriceIconAllowedDays": [
+      30
+    ],
+    "maxInstallmentAmountMinPrice": 10000000,
+    "maxReviewCount": 20,
+    "maxWidgetCount": 3,
+    "mediaCenterSantralUrl": "https://apigw.trendyol.com/discovery-web-websfxmediacenter-santral",
+    "memberGwUrl": "https://apigw.trendyol.com/discovery-web-membergw-service",
+    "memberLocationApiUrl": "https://apigw.trendyol.com/discovery-pdp-websfxmemberlocationapi-santral",
+    "merchantBasedRecoSliderEnabled": false,
+    "minInstallmentAmountEnabled": true,
+    "minInstallmentAmountMinInstallment": 3,
+    "minInstallmentAmountMinPrice": 1000,
+    "minSellerFollowerCount": 1000,
+    "navigationGwUrl": "https://apigw.trendyol.com/discovery-web-navigation-service",
+    "newPriceFormatEnabled": true,
+    "newRatingSummaryEnabled": true,
+    "newRelatedCategoriesEnabled": false,
+    "newReviewsAndRatingsEnabled": true,
+    "newSearchEnabled": true,
+    "notifyMeCount": 10,
+    "notifyMeEnabled": true,
+    "onboardingTourEnabled": true,
+    "openReviewModalEnabled": false,
+    "otherMerchantsEnabled": true,
+    "paymentOptionsEnabled": true,
+    "pdpAbTests": [],
+    "pdpReportReasons": "[ { \"id\": \"COPYRIGHT\", \"value\": \"Telif hakkı ihlalli içerik\" }, { \"id\": \"PERSONAL_INFORMATION\", \"value\": \"Kişisel bilgi/yönlendirme\" }, { \"id\": \"NSFW\", \"value\": \"+18 içerik\" }, { \"id\": \"FORBIDDEN_WORDS\", \"value\": \"Argo& yasaklı kelime\" }, { \"id\": \"POLITICAL_SPEECH\", \"value\": \"Politik/ayrımcı söylem\" }, { \"id\": \"THIRD_PARTY_MENTION\", \"value\": \"Üçüncü şahıs/kurum bahsi\"}, {\"id\": \"ABUSIVE_SPEECH\", \"value\": \"Kötüleyici söylem\" }, {\"id\": \"INACCURATE_INFORMATION\", \"value\": \"Hatalı bilgi\" }, {\"id\": \"TECHNICAL_ISSUE\", \"value\": \"Teknik sorun\"}, {\"id\": \"INAPPROPRIATE_CONTENT\", \"value\": \"İçerik-ürün uyumsuzluğu\" }]",
+    "pdpVideoEnabled": true,
+    "popularReviewMinCommentCount": 30,
+    "popularReviewMinRatePoint": 4.5,
+    "popularReviewRedirectQuery": "?score=4,5",
+    "priceBoxV2Enable": true,
+    "priceHistoryFeatureEnabled": true,
+    "priceHistorySantralUrl": "https://apigw.trendyol.com/discovery-web-websfxpricehistory-santral",
+    "productAttributesEnabled": true,
+    "productAttributesIdsBlacklist": [
+      1244,
+      1245,
+      1214,
+      60151,
+      60152
+    ],
+    "productDetailImprovedBreadcrumbEnabled": true,
+    "productDetailMetaDescription": "Trendyol.com sayesinde {0} ürününe çok özel indirimlerle sahip olabilecek ve alışveriş alışkanlıklarınızı değiştireceksiniz.",
+    "productDetailReportAbuseEnabled": true,
+    "productDetailReportAbuseItems": "[{\"id\": 0,\"value\": \"Ürünün fiyatı hatalı\"},{\"id\": 1,\"value\": \"Görsel hatalı\"},{\"id\": 2,\"value\": \"Ürünün ismi eksik/hatalı\"},{\"id\": 3,\"value\": \"Ürün özellikleri eksik ya da hatalı\"},{\"id\": 4,\"value\": \"Ürünün kategorisi hatalı\"}]",
+    "productGroupEnabled": true,
+    "productGroupSantralUrl": "https://apigw.trendyol.com/discovery-web-websfxproductgroups-santral",
+    "productInstallmentNewEnabled": true,
+    "productInstallmentSpecialCategories": [],
+    "productNotifyFormId": 1148,
+    "productRecommendationPage": 0,
+    "productRecommendationSize": 8,
+    "productRecommendationVersion": 2,
+    "promotionImageEnabled": true,
+    "promotionImageSantralUrl": "https://apigw.trendyol.com/discovery-web-websfxpromotionproducts-santral",
+    "publicMdcCheckoutGwUrl": "https://apigw.trendyol.com/discovery-web-checkout-service",
+    "publicMdcContractServiceUrl": "https://apigw.trendyol.com/discovery-web-websfxcontract-santral",
+    "publicMdcCouponGwUrl": "https://apigw.trendyol.com/discovery-web-coupongw-service",
+    "publicMdcProductGwUrl": "https://apigw.trendyol.com/discovery-web-productgw-service",
+    "publicMdcRecoGwUrl": "https://apigw.trendyol.com/discovery-web-recogw-service",
+    "publicMdcSFXInstallmentUrl": "https://apigw.trendyol.com/discovery-pdp-websfxinstallment-santral",
+    "publicMdcSocialGwUrl": "https://apigw.trendyol.com/discovery-web-socialgw-service",
+    "publicProductGwUrl": "https://apigw.trendyol.com/discovery-web-productgw-service",
+    "publicSFXAddToBasketRouteURL": "https://apigw.trendyol.com/discovery-pdp-websfxcartitems-santral",
+    "publicSdcCheckoutGwUrl": "https://apigw.trendyol.com/discovery-web-checkout-service",
+    "publicSdcCouponGwUrl": "https://apigw.trendyol.com/discovery-web-coupongw-service",
+    "publicSdcProductGwUrl": "https://apigw.trendyol.com/discovery-web-productgw-service",
+    "publicVasSfxApiUrl": "https://apigw.trendyol.com/discovery-web-websfxcheckoutvasservice-santral",
+    "publicWebSfxAttributeRecommendationServiceUrl": "https://apigw.trendyol.com/discovery-web-websfxprebasketgenericreco-santral",
+    "publicWebSfxBasketRecoServiceUrl": "https://apigw.trendyol.com/discovery-web-websfxprebasketmrchbasedreco-santral",
+    "publicWebSfxCrossPromotionServiceUrl": "https://apigw.trendyol.com/discovery-pdp-websfxcrosspromotions-santral",
+    "publicWebSfxGenericRecommendationServiceUrl": "https://apigw.trendyol.com/discovery-pdp-websfxrecosliders-santral",
+    "publicWebSfxProductRecommendationServiceUrl": "https://apigw.trendyol.com/discovery-web-websfxproductrecommendation-santral",
+    "publishCriteriaEnabled": true,
+    "pudoBannerMoreInformationText": "Siparişindeki tüm ürünlerin Gel-Al Noktasından teslimata uygun olması gerekmektedir.",
+    "questionAndAnswerV2Enabled": true,
+    "questionCountToShow": 3,
+    "questionCountToShowV2": 20,
+    "questionsAndAnswersEnabled": true,
+    "ratingReviewEnabled": true,
+    "ratingReviewLikesEnabled": true,
+    "recoCardAbTestValue": "A_0-100,B_0-0",
+    "recoCrossCustomStampsEnabled": true,
+    "recoMinScoreToShowAverageRating": 1,
+    "recommendationAbTestValue": "A_0-0,B_0-0,C_1-100",
+    "recommendationEnabled": true,
+    "redirectReviewsPageEnabled": true,
+    "relatedCategoriesExposedSFXFragmentEnabled": false,
+    "relatedCategoryAbTestValue": "A_0-0,B_0-0,C_1-100,D_0-0,E_0-0",
+    "relatedCategoryAbTestVariant": "C",
+    "relatedCategoryCountLimit": 5,
+    "relatedCategoryEnabled": true,
+    "relatedCategoryImageVirtualBrandIds": [
+      33,
+      102347,
+      39,
+      141,
+      53,
+      981,
+      254,
+      204,
+      466,
+      155,
+      296,
+      586,
+      37,
+      131,
+      971,
+      178,
+      333,
+      129,
+      136,
+      49,
+      328,
+      179,
+      38,
+      101446,
+      568,
+      138,
+      859,
+      289,
+      754,
+      43,
+      128,
+      44,
+      618,
+      569,
+      535,
+      193,
+      660,
+      160,
+      303,
+      347,
+      1265,
+      658,
+      103029,
+      104699,
+      300,
+      103500,
+      103124,
+      101476,
+      103187,
+      104189,
+      208
+    ],
+    "relatedCategoryTitleTooltipThreshold": 43,
+    "relatedCategoryVirtualBrandImagePath": "assets/banner/2018/mobileCDN/brandFollow",
+    "reviewApiSfxUrl": "https://apigw.trendyol.com/discovery-web-websfxsocialreviewrating-santral",
+    "reviewReportAbuseEnabled": true,
+    "rushDeliveryStampEnabled": true,
+    "scheduledDeliveryWarningMessage": "Seçtiğiniz adrese şu anda randevulu teslimat hizmeti bulunmamaktadır. Ürünleriniz kargo ile gönderilecektir.",
+    "scrollToSimilar": false,
+    "searcGatewayPublicUrl": "https://apigw.trendyol.com/discovery-web-searchgw-service",
+    "selectDefaultVariantEnabled": false,
+    "sellerAreaEnabled": true,
+    "sellerAverageProductRatingThreshold": 4.5,
+    "sellerBaseSantralUrl": "https://apigw.trendyol.com/discovery-web-websfxsellerbase-santral",
+    "sellerPointLowLimit": 8,
+    "sellerShippingEnabled": false,
+    "sellerStoreCoreSantral": "https://apigw.trendyol.com/discovery-pdp-websfxsellerstorecore-santral",
+    "sellerStoreLinkEnabled": true,
+    "sellerStoreUrl": "https://apigw.trendyol.com/discovery-sellerstore-webgw-service",
+    "sentimentPdpText": "Kullanıcılar {0} hakkında olumlu yorum yaptı",
+    "sentimentProofRotateVelocity": 3000,
+    "sentimentRatioThreshold": 60,
+    "sentimentText": "Kullanıcılar {0} hakkında olumlu yorum yaptı",
+    "sfxCouponSantralUrl": "https://apigw.trendyol.com/discovery-pdp-websfxcoupon-santral",
+    "sfxProductCombinationSantralUrl": "https://apigw.trendyol.com/discovery-pdp-websfxproductcombination-santral",
+    "sfxProductEligibilitySantralUrl": "https://apigw.trendyol.com/discovery-pdp-websfxproducteligibility-santral",
+    "showAzManatPrice": true,
+    "showCargoRemainingDays": true,
+    "showCrossPromotions": true,
+    "showDigitalGoodsRebate": false,
+    "showDiscountInformation": false,
+    "showFlashSales": true,
+    "showImageOnProductCommentsEnabled": true,
+    "showLinearAlternativeVariants": true,
+    "showPaymentMethodsAndShippings": false,
+    "showWalletRebate": false,
+    "similarRecoSocialProofEnabled": true,
+    "siteAddress": "https://www.trendyol.com",
+    "sizeChartUrl": "https://cdn.dsmcdn.com/Assets/frontend-web-sizechart/tr1.html",
+    "sizeCharts": [
+      [
+        "Güneş Gözlüğü",
+        "https://img-trendyol.mncdn.com/assets/banner/2018/webBanners/bedenTablosu/gozluk_beden_tablosu.jpg",
+        "Gözlük Beden Kılavuzu"
+      ],
+      [
+        "İmaj Gözlükleri",
+        "https://img-trendyol.mncdn.com/assets/banner/2018/webBanners/bedenTablosu/gozluk_beden_tablosu.jpg",
+        "Gözlük Beden Kılavuzu"
+      ],
+      [
+        "Saat",
+        "https://img-trendyol.mncdn.com/assets/banner/2018/webBanners/bedenTablosu/saatler_beden_tablosu.jpg",
+        "Saat Beden Kılavuzu"
+      ]
+    ],
+    "slicerEnabled": true,
+    "slpRecoExposedSFXFragmentEnabled": false,
+    "socialProofApiTimeout": 2000,
+    "socialProofApiUrl": "https://apigw.trendyol.com/discovery-web-searchgw-service",
+    "socialProofTranslations": {
+      "RECO_SOCIAL_PROOF_BASKET_COUNT_QUANTITY_TEXT": "{0} kişinin",
+      "RECO_SOCIAL_PROOF_BASKET_COUNT_TEXT_PREFIX": "",
+      "RECO_SOCIAL_PROOF_BASKET_COUNT_TEXT_SUFFIX": " sepetinde!",
+      "RECO_SOCIAL_PROOF_FAVORITE_COUNT_QUANTITY_TEXT": "{0} kişi ",
+      "RECO_SOCIAL_PROOF_FAVORITE_COUNT_TEXT_PREFIX": "",
+      "RECO_SOCIAL_PROOF_FAVORITE_COUNT_TEXT_SUFFIX": "favoriledi!",
+      "RECO_SOCIAL_PROOF_ORDER_COUNTL3D_QUANTITY_TEXT": " {0} adet ",
+      "RECO_SOCIAL_PROOF_ORDER_COUNTL3D_TEXT_PREFIX": "3 günde",
+      "RECO_SOCIAL_PROOF_ORDER_COUNTL3D_TEXT_SUFFIX": "ürün satıldı!!",
+      "RECO_SOCIAL_PROOF_ORDER_COUNT_QUANTITY_TEXT": " {0} adet ",
+      "RECO_SOCIAL_PROOF_ORDER_COUNT_TEXT_PREFIX": "3 günde",
+      "RECO_SOCIAL_PROOF_ORDER_COUNT_TEXT_SUFFIX": "ürün satıldı!!",
+      "RECO_SOCIAL_PROOF_PAGE_VIEW_COUNT_QUANTITY_TEXT": " {0} kişi ",
+      "RECO_SOCIAL_PROOF_PAGE_VIEW_COUNT_TEXT_PREFIX": "24 saatte",
+      "RECO_SOCIAL_PROOF_PAGE_VIEW_COUNT_TEXT_SUFFIX": "inceledi!",
+      "SOCIAL_PROOF_BASKET_COUNT_QUANTITY_TEXT": "{0} kişinin",
+      "SOCIAL_PROOF_BASKET_COUNT_TEXT_PREFIX": "",
+      "SOCIAL_PROOF_BASKET_COUNT_TEXT_SUFFIX": " sepetinde, tükenmeden al!",
+      "SOCIAL_PROOF_FAVORITE_COUNT_QUANTITY_TEXT": " {0} kişi ",
+      "SOCIAL_PROOF_FAVORITE_COUNT_TEXT_PREFIX": "Sevilen ürün!",
+      "SOCIAL_PROOF_FAVORITE_COUNT_TEXT_SUFFIX": "favoriledi!",
+      "SOCIAL_PROOF_ORDER_COUNTL3D_QUANTITY_TEXT": " {0} adet ",
+      "SOCIAL_PROOF_ORDER_COUNTL3D_TEXT_PREFIX": "Acele et! Son 3 günde",
+      "SOCIAL_PROOF_ORDER_COUNTL3D_TEXT_SUFFIX": "ürün satıldı!!",
+      "SOCIAL_PROOF_ORDER_COUNT_QUANTITY_TEXT": " {0} adet ",
+      "SOCIAL_PROOF_ORDER_COUNT_TEXT_PREFIX": "Acele et! Son 3 günde",
+      "SOCIAL_PROOF_ORDER_COUNT_TEXT_SUFFIX": "ürün satıldı!!",
+      "SOCIAL_PROOF_PAGE_VIEW_COUNT_QUANTITY_TEXT": " {0} kişi ",
+      "SOCIAL_PROOF_PAGE_VIEW_COUNT_TEXT_PREFIX": "Popüler ürün! Son 24 saatte",
+      "SOCIAL_PROOF_PAGE_VIEW_COUNT_TEXT_SUFFIX": "görüntüledi!",
+      "SOCIAL_PROOF_PEOPLE_TEXT": "kişi",
+      "SOCIAL_PROOF_QUANTITY_TEXT": "adet"
+    },
+    "stampType": "TypeA",
+    "starredAttributesLimit": 4,
+    "stickNavigationItems": {
+      "COLLECTION_RECOMMENDATION": {
+        "selector": "#collection-recommendation > .collection-recommendation-container > .title",
+        "translateKey": "COLLECTION_RECOMMENDATION_TITLE"
+      },
+      "CROSS_PRODUCTS": {
+        "selector": "aside[data-drroot=\"cross-recommendations\"] > .title",
+        "translateKey": "CROSS_PRODUCTS_TITLE"
+      },
+      "OTHER_MERCHANTS": {
+        "selector": "#other-merchants-dr",
+        "translateKey": "OTHER_MERCHANTS"
+      },
+      "PRODUCT_DESCRIPTION": {
+        "selector": "#urun-aciklamasi > .title",
+        "translateKey": "PRODUCT_DESCRIPTION"
+      },
+      "PRODUCT_DETAILS": {
+        "selector": ".details-section[data-drroot=\"product-info\"] > .title",
+        "translateKey": "PRODUCT_DETAILS"
+      },
+      "PRODUCT_REVIEWS": {
+        "selector": "article[data-drroot=\"product-reviews\"]",
+        "translateKey": "PRODUCT_REVIEWS"
+      },
+      "RELATED_CATEGORIES": {
+        "selector": "aside[data-drroot=\"related-categories\"]",
+        "translateKey": "RELATED_CATEGORIES"
+      },
+      "REPORT_CONTENT": {
+        "selector": ".report-container .report-content",
+        "translateKey": "PRODUCT_DETAIL_REPORT_ABUSE_TEXT"
+      },
+      "SIMILAR_PRODUCTS": {
+        "selector": "aside[data-drroot=\"similar-products\"]",
+        "translateKey": "CTA_SIMILAR_PRODUCTS"
+      },
+      "SLP": {
+        "selector": "div[data-drroot=\"slp-reco\"] > h3",
+        "translateKey": "YOU_MAY_ALSO_INTERESTED"
+      }
+    },
+    "stickNavigationItemsOrder": [
+      "SIMILAR_PRODUCTS",
+      "CROSS_PRODUCTS",
+      "OTHER_MERCHANTS",
+      "PRODUCT_REVIEWS",
+      "PRODUCT_DETAILS"
+    ],
+    "stickersEnabled": true,
+    "stockWarningMaxLimit": 10,
+    "stockWarningMinLimit": 3,
+    "storefrontId": 1,
+    "thresholdDayForLongTermDelivery": 15,
+    "tomorrowShippingEnabled": true,
+    "trendyolMillaUrl": "https://www.trendyol-milla.com/",
+    "userAddressInfoSantralUrl": "https://apigw.trendyol.com/discovery-web-websfxuseraddressinfo-santral",
+    "vasServiceEnabled": true,
+    "videoThumbnailPreviewEnabled": true,
+    "webSfxCheckoutBasketUrl": "https://apigw.trendyol.com/discovery-web-websfxcheckoutbasket-santral",
+    "widgets": [
+      {
+        "name": "hitCoupon",
+        "order": 1
+      },
+      {
+        "name": "millaCampaignBanner",
+        "order": 2
+      },
+      {
+        "name": "pudoBanner",
+        "order": 3
+      },
+      {
+        "name": "campaigns",
+        "order": 4
+      },
+      {
+        "name": "seller",
+        "order": 5
+      },
+      {
+        "name": "otherSellers",
+        "order": 6
+      },
+      {
+        "name": "corporateInvoice",
+        "order": 7
+      },
+      {
+        "name": "featuredComment",
+        "order": 8
+      },
+      {
+        "name": "cta",
+        "order": 9
+      },
+      {
+        "name": "otherCategories",
+        "order": 10
+      },
+      {
+        "name": "discover",
+        "order": 11
+      }
+    ],
+    "wishListUrl": "https://apigw.trendyol.com/discovery-web-websfxwishlist-santral"
+  },
+  "htmlContent": null,
+  "product": {
+    "allVariants": [
+      {
+        "inStock": true,
+        "itemNumber": 1250657785,
+        "value": ""
+      }
+    ],
+    "alternativeVariants": [],
+    "attributes": [
+      {
+        "description": "",
+        "key": {
+          "id": 433,
+          "name": "Garanti Süresi"
+        },
+        "mediaUrls": [],
+        "starred": false,
+        "value": {
+          "id": 20637,
+          "name": "2 Yıl"
+        },
+        "values": [
+          {
+            "id": 20637,
+            "name": "2 Yıl"
+          }
+        ]
+      },
+      {
+        "description": "",
+        "key": {
+          "id": 948,
+          "name": "Öğütme Ayarı"
+        },
+        "mediaUrls": [],
+        "starred": false,
+        "value": {
+          "id": 1179042,
+          "name": "1-3"
+        },
+        "values": [
+          {
+            "id": 1179042,
+            "name": "1-3"
+          }
+        ]
+      },
+      {
+        "description": "",
+        "key": {
+          "id": 1192,
+          "name": "Menşei"
+        },
+        "mediaUrls": [],
+        "starred": false,
+        "value": {
+          "id": 10617344,
+          "name": "TR"
+        },
+        "values": [
+          {
+            "id": 10617344,
+            "name": "TR"
+          }
+        ]
+      },
+      {
+        "description": "",
+        "key": {
+          "id": 1201,
+          "name": "Tamir Edilebilirlik"
+        },
+        "mediaUrls": [],
+        "starred": false,
+        "value": {
+          "id": 10621827,
+          "name": "Yetkili Servis ile Tamiri Gerekir."
+        },
+        "values": [
+          {
+            "id": 10621827,
+            "name": "Yetkili Servis ile Tamiri Gerekir."
+          }
+        ]
+      }
+    ],
+    "brand": {
+      "beautifiedName": "sinbo",
+      "id": 656,
+      "isVirtual": true,
+      "name": "Sinbo",
+      "path": "/sinbo-x-b656"
+    },
+    "brandCategoryBanners": [],
+    "businessUnit": "Sofra & Mutfak",
+    "businessUnitId": 100122,
+    "buyMorePayLessPromotions": [],
+    "campaign": {
+      "endDate": "2061-01-01T18:04:05",
+      "id": 61,
+      "isMultipleSupplied": false,
+      "name": "Tüm Ürünler",
+      "showTimer": false,
+      "startDate": "2010-01-01T17:04:05",
+      "stockTypeId": 7,
+      "url": "/tum-urunler/butikdetay/61"
+    },
+    "category": {
+      "bankType": {
+        "id": 9,
+        "name": "SMALL_HOME_APPLIACES"
+      },
+      "beautifiedName": "kahve-ve-baharat-ogutucu",
+      "hierarchy": "Elektronik/Elektrikli Ev Aletleri/Kahve Makinesi/Kahve & Baharat Öğütücü",
+      "id": 144026,
+      "isCreditSuitable": true,
+      "isVASEnabled": true,
+      "name": "Kahve ve Baharat Öğütücü",
+      "refundable": true
+    },
+    "categoryTopRankings": {
+      "name": "bestSeller",
+      "order": 1,
+      "text": "en çok satılan",
+      "url": "/sirali-urunler?categoryId=144026&type=bestSeller&webGenderId=0"
+    },
+    "color": null,
+    "crossPromotionAward": {
+      "awardType": "FIXED_PRICE",
+      "awardValue": 2099,
+      "contentId": 898576254,
+      "merchantId": 109324
+    },
+    "customValues": [
+      {
+        "key": "deliveryCountries",
+        "value": "AZ"
+      },
+      {
+        "key": "microExport",
+        "value": "true"
+      },
+      {
+        "key": "origin",
+        "value": "TR"
+      },
+      {
+        "key": "dimensionalWeight",
+        "value": "3.0"
+      },
+      {
+        "key": "returningAddressId",
+        "value": "153433"
+      },
+      {
+        "key": "shipmentAddressId",
+        "value": "153434"
+      },
+      {
+        "key": "stockCode",
+        "value": "SINSCM2982SYHFD"
+      },
+      {
+        "key": "vatRate",
+        "value": "20"
+      }
+    ],
+    "descriptions": [
+      {
+        "priority": 2,
+        "text": "Bu ürün [page=\"merchant_info\"]Fırsat Dünyası[/page] tarafından gönderilecektir."
+      },
+      {
+        "priority": 4,
+        "text": "Kampanya fiyatından satılmak üzere 100 adetten fazla stok sunulmuştur."
+      },
+      {
+        "priority": 7,
+        "text": "İncelemiş olduğunuz ürünün satış fiyatını satıcı belirlemektedir."
+      },
+      {
+        "priority": 1001,
+        "text": "Bir ürün, birden fazla satıcı tarafından satılabilir. Birden fazla satıcı tarafından satışa sunulan ürünlerin satıcıları ürün için belirledikleri fiyata, satıcı puanlarına, teslimat statülerine, ürünlerdeki promosyonlara, kargonun bedava olup olmamasına ve ürünlerin hızlı teslimat ile teslim edilip edilememesine, ürünlerin stok ve kategorileri bilgilerine göre sıralanmaktadır."
+      },
+      {
+        "priority": 1003,
+        "text": "Bu üründen en fazla 5 adet sipariş verilebilir. 5 adedin üzerindeki siparişleri Trendyol iptal etme hakkını saklı tutar. Belirlenen bu limit kurumsal siparişlerde geçerli olmayıp, kurumsal siparişler için farklı limitler belirlenebilmektedir."
+      },
+      {
+        "priority": 1005,
+        "text": "15 gün içinde ücretsiz iade. Detaylı bilgi için [page=\"return_conditions\"]tıklayın[/page]."
+      },
+      {
+        "priority": 0,
+        "text": "KAHVE & BAHARAT ÖĞÜTÜCÜ • 200W Güçlü motor • 4 Bıçaklı ve 2 bıçaklı öğütme kabı • 100 gr öğütücü kapasitesi • Paslanmaz çelik öğütme haznesi • Paslanmaz çelik öğütücü bıçakları • Şeffaf öğütücü kapağı • Kablo saklama yuvası • Emniyet sistemi • Kaymayı önleyen lastik ayaklar"
+      }
+    ],
+    "faqs": [],
+    "favoriteCount": 624,
+    "filterableLabels": [
+      {
+        "displayName": "En Çok Satan Elektronik Ürünleri",
+        "id": "56f7a3a9-9fbf-4954-a954-b160a700c9a7",
+        "name": "encoksatanelektronik",
+        "visibleAgg": false
+      },
+      {
+        "displayName": "En Çok Satan Kadın Ürünleri",
+        "id": "370be812-e634-425e-8338-a4d88c8e0a7e",
+        "name": "encoksatanurunlerkadin",
+        "visibleAgg": false
+      },
+      {
+        "displayName": "Her Gün Yenilenen Fiyatlar",
+        "id": "8d5e4354-fc6a-43b6-bb8f-bf60ba42f1cf",
+        "name": "hergunyenilenefiyatlar",
+        "visibleAgg": false
+      }
+    ],
+    "gender": {},
+    "hasHtmlContent": true,
+    "hasSlicingAttribute": false,
+    "hasStock": true,
+    "id": 899201806,
+    "images": [
+      "/ty1644/product/media/images/prod/PIM/20250304/13/a95fa17d-618a-4722-b156-d2e8e04a7719/1_org_zoom.jpg",
+      "/ty1644/product/media/images/prod/PIM/20250304/13/9525f93a-b41d-436c-bb14-59152b27df08/1_org_zoom.jpg",
+      "/ty1646/product/media/images/prod/PIM/20250304/13/3659239e-391e-40bf-b506-d3309803ad2d/1_org_zoom.jpg",
+      "/ty1645/product/media/images/prod/PIM/20250304/13/5cda8aff-413b-4118-9e83-0e3978fc6e0f/1_org_zoom.jpg",
+      "/ty1646/product/media/images/prod/PIM/20250304/13/06ca0f1e-08b6-4922-9af2-2349442fc363/1_org_zoom.jpg"
+    ],
+    "installmentBanner": "",
+    "installmentText": "Peşin Fiyatına 3 Taksit!",
+    "isArtWork": false,
+    "isBasketDiscount": false,
+    "isBlacklist": false,
+    "isDigitalGood": false,
+    "isFreeCargo": true,
+    "isMarketplace": true,
+    "isPostponeInstallment": false,
+    "isRunningOut": false,
+    "isSellable": true,
+    "isThereAnyCorporateInvoiceInOtherMerchants": false,
+    "isVasEnabled": true,
+    "landings": [],
+    "listingId": "0d773eb1459e4f652072fc3b0f8ccc30",
+    "lowerPriceMerchantListingExist": false,
+    "maxInstallment": 9,
+    "merchant": {
+      "address": "Mahalle/Semt:İKİTELLİ OSB MAH. Cadde/Sokak:16. CAD. No:6 İç Kapı No:12",
+      "centralRegistrationSystemNumber": "0386081664600001",
+      "cityName": "İstanbul",
+      "corporateInvoiceApplicable": true,
+      "deliveryProviderName": "Fırsat Dünyası",
+      "id": 109324,
+      "isSearchableMerchant": true,
+      "locationBasedSales": false,
+      "merchantBadges": [],
+      "merchantMarkers": [],
+      "mpTyCoverageD": true,
+      "name": "Fırsat Dünyası",
+      "officialName": "FIRSAT DÜNYASI ELEKTRONİK BİLGİ İŞLEM VE TEKNOLOJİ SANAYİ LİMİTED ŞİRKETİ",
+      "registeredEmailAddress": "firsatdunyasi@hs01.kep.tr",
+      "sellerLink": "/magaza/firsat-dunyasi-m-109324",
+      "sellerScore": 8.9,
+      "sellerScoreColor": "08B449",
+      "stickers": [
+        2035
+      ],
+      "taxNumber": "3860816646",
+      "videoContentId": "8525afc7-1d6e-4781-a1a3-dc7ca26bd022"
+    },
+    "merchantListings": [
+      {
+        "allVariants": [
+          {
+            "inStock": true,
+            "itemNumber": 1250657785,
+            "value": ""
+          }
+        ],
+        "alternativeVariants": [],
+        "beta": false,
+        "buyMorePayLessPromotions": [],
+        "campaign": {
+          "endDate": "2061-01-01T18:04:05",
+          "id": 61,
+          "isMultipleSupplied": false,
+          "name": "Tüm Ürünler",
+          "startDate": "2010-01-01T17:04:05",
+          "stockTypeId": 7,
+          "tags": []
+        },
+        "crossPromotions": [
+          {
+            "buyBoxScore": 0,
+            "crossPromotionAward": {
+              "awardType": "FIXED_PRICE",
+              "awardValue": 2099,
+              "contentId": 898576254,
+              "merchantId": 109324
+            },
+            "discountType": 2,
+            "id": 21707797,
+            "isLimitSatisfied": false,
+            "isOnlyAz": false,
+            "mocPerUser": 0,
+            "name": "Ödül Ürünü 2.099 TL",
+            "promotionDiscountType": "Other",
+            "promotionEndDate": "2025-03-30T23:59:00",
+            "promotionRemainingDays": 11,
+            "promotionRemainingHours": 20,
+            "promotionRemainingMinutes": 39,
+            "shortName": "Birlikte Al"
+          }
+        ],
+        "customValues": [
+          {
+            "key": "deliveryCountries",
+            "value": "AZ"
+          },
+          {
+            "key": "microExport",
+            "value": "true"
+          },
+          {
+            "key": "origin",
+            "value": "TR"
+          },
+          {
+            "key": "dimensionalWeight",
+            "value": "3.0"
+          },
+          {
+            "key": "returningAddressId",
+            "value": "153433"
+          },
+          {
+            "key": "shipmentAddressId",
+            "value": "153434"
+          },
+          {
+            "key": "stockCode",
+            "value": "SINSCM2982SYHFD"
+          },
+          {
+            "key": "vatRate",
+            "value": "20"
+          }
+        ],
+        "hasCheapestVariant": false,
+        "isFreeCargo": false,
+        "isWinner": true,
+        "maxProductSaleQuantity": 5,
+        "merchant": {
+          "address": "Mahalle/Semt:İKİTELLİ OSB MAH. Cadde/Sokak:16. CAD. No:6 İç Kapı No:12",
+          "affiliate": "TRENDYOLTR",
+          "allMpEstimatedPackageDTD": true,
+          "centralRegistrationSystemNumber": "0386081664600001",
+          "cityName": "İstanbul",
+          "corporateInvoiceApplicable": true,
+          "countryName": "Türkiye",
+          "districtName": "Başakşehir",
+          "dropShipmentSupplier": false,
+          "exports": [],
+          "id": 109324,
+          "locationBasedSales": false,
+          "logoUrl": "https://cdn.dsmcdn.com/seller-store/uploads/109324/981c95a0-ee55-4348-9b08-49369edcb355.jpeg",
+          "merchantBadges": [],
+          "merchantMarkers": [],
+          "mpAgreedDTD": true,
+          "mpEstimatedPackageDTD": true,
+          "mpTyCoverageD": true,
+          "name": "Fırsat Dünyası",
+          "officialName": "FIRSAT DÜNYASI ELEKTRONİK BİLGİ İŞLEM VE TEKNOLOJİ SANAYİ LİMİTED ŞİRKETİ",
+          "registeredEmailAddress": "firsatdunyasi@hs01.kep.tr",
+          "sellerScore": 8.9,
+          "sellerScoreColor": "08B449",
+          "stickers": [
+            {
+              "id": 2035
+            }
+          ],
+          "taxNumber": "3860816646",
+          "videoContentId": "8525afc7-1d6e-4781-a1a3-dc7ca26bd022"
+        },
+        "otherMerchantVariants": [],
+        "promotions": [
+          {
+            "buyBoxScore": 0,
+            "discountType": 7,
+            "id": 20117930,
+            "isLimitSatisfied": false,
+            "isOnlyAz": false,
+            "mocPerUser": 0,
+            "name": "250 TL ve Üzeri Kargo Bedava (Satıcı Karşılar)",
+            "promotionDiscountType": "Cargo",
+            "promotionEndDate": "2094-01-01T00:00:00",
+            "promotionRemainingDays": 25124,
+            "promotionRemainingHours": 20,
+            "promotionRemainingMinutes": 40,
+            "shortName": "Kargo Bedava"
+          }
+        ],
+        "searchableTags": [],
+        "stamps": [
+          {
+            "aspectRatio": 0.25,
+            "imageUrl": "/marketing/datascience/automation/2020/12/9/EnCokSatan_202012091129.png",
+            "position": "upper-left",
+            "priority": 1100,
+            "type": "TypeB"
+          },
+          {
+            "aspectRatio": 0.25,
+            "imageUrl": "/marketing/datascience/automation/2020/12/9/EnCokSatan_202012091129.png",
+            "position": "upper-left",
+            "priority": 1100,
+            "type": "TypeA"
+          }
+        ],
+        "variants": [
+          {
+            "availableForClaim": true,
+            "barcode": "8693807259300",
+            "collectableCouponDiscount": 100,
+            "deci": 0,
+            "discountedPriceInfo": "",
+            "freeCargo": true,
+            "fulfilmentType": "mp",
+            "groupTagIds": [],
+            "hasCollectable": true,
+            "hasGroupDeal": false,
+            "isDiscountedListing": false,
+            "isFlash": false,
+            "isWinner": true,
+            "itemNumber": 1250657785,
+            "listingId": "0d773eb1459e4f652072fc3b0f8ccc30",
+            "lowerPriceMerchantListingExist": false,
+            "maxProductSaleQuantity": 5,
+            "overPriced": false,
+            "price": {
+              "buyingPrice": 0,
+              "couponApplicablePrice": 789,
+              "currency": "TRY",
+              "discountedPrice": 789,
+              "manipulatedOriginalPrice": 789,
+              "originalPrice": 789,
+              "profitMargin": 0,
+              "sellingPrice": 789
+            },
+            "quantity": null,
+            "rushDeliveryDuration": 24,
+            "rushDeliveryMerchantListing": {
+              "exist": false
+            },
+            "rushDeliveryMerchantListingExist": false,
+            "scores": [
+              {
+                "campaignId": 61,
+                "key": "1",
+                "value": 999990.5418942
+              },
+              {
+                "campaignId": 61,
+                "key": "2",
+                "value": 999990.5418942
+              }
+            ],
+            "sellable": true,
+            "supplementaryServices": [],
+            "tags": [
+              "kategori_encoksatanlar"
+            ],
+            "tyBarcode": "8693807259300",
+            "unitInfo": {},
+            "variantAttributes": []
+          }
+        ]
+      }
+    ],
+    "metaBrand": {
+      "beautifiedName": "",
+      "id": 8607,
+      "isVirtual": false,
+      "name": "Sinbo",
+      "path": ""
+    },
+    "name": "Scm-2982 Kahve Ve Baharat Öğütücü Krom",
+    "nameWithProductCode": "Scm-2982 Kahve Ve Baharat Öğütücü Krom SCM-2982 Krom",
+    "originalCategory": {
+      "bankType": {
+        "id": 9,
+        "name": "SMALL_HOME_APPLIACES"
+      },
+      "beautifiedName": "kahve-baharat-ogutucu",
+      "hierarchy": "Elektronik/Elektrikli Ev Aletleri/Kahve Makinesi/Kahve & Baharat Öğütücü",
+      "id": 3116,
+      "isCreditSuitable": true,
+      "isVASEnabled": true,
+      "name": "Kahve & Baharat Öğütücü",
+      "refundable": true
+    },
+    "otherMerchantVariants": [],
+    "otherMerchants": [],
+    "price": {
+      "couponApplicablePrice": 789,
+      "currency": "TRY",
+      "discountedPrice": {
+        "text": "789 TL",
+        "value": 789
+      },
+      "originalPrice": {
+        "text": "789 TL",
+        "value": 789
+      },
+      "profitMargin": 0,
+      "sellingPrice": {
+        "text": "789 TL",
+        "value": 789
+      }
+    },
+    "productCode": "SCM-2982 Krom",
+    "productGroupId": 687892444,
+    "productStamps": [
+      {
+        "aspectRatio": 0.25,
+        "imageUrl": "/marketing/datascience/automation/2020/12/9/EnCokSatan_202012091129.png",
+        "position": "upper-left",
+        "priority": 1100,
+        "type": "TypeA"
+      }
+    ],
+    "promotions": [
+      {
+        "id": 20117930,
+        "isLimitSatisfied": false,
+        "isOnlyAz": false,
+        "link": "/sr?prm=20117930",
+        "promotionDiscountType": "Cargo",
+        "promotionRemainingTime": "",
+        "shortName": "Kargo Bedava",
+        "text": "250 TL ve Üzeri Kargo Bedava (Satıcı Karşılar)",
+        "type": 2
+      }
+    ],
+    "questionsUrl": "/sinbo/scm-2982-kahve-ve-baharat-ogutucu-krom-p-899201806/saticiya-sor?merchantId=109324&filterOverPriceListings=false&sav=true",
+    "ratingScore": {
+      "averageRating": 4.42,
+      "totalCommentCount": 9,
+      "totalRatingCount": 12
+    },
+    "reviewsUrl": "/sinbo/scm-2982-kahve-ve-baharat-ogutucu-krom-p-899201806/yorumlar?filterOverPriceListings=false&sav=true",
+    "rushDeliveryMerchantListingExist": false,
+    "selectedVasAttributes": [],
+    "sellerQuestionEnabled": true,
+    "showExpiredFlashSales": false,
+    "showSexualContent": true,
+    "showStarredAttributes": true,
+    "showValidFlashSales": false,
+    "showVariants": false,
+    "sizeChartUrl": "",
+    "sizeExpectationAvailable": false,
+    "socialProof": {
+      "favoriteCount": "624"
+    },
+    "tax": 20,
+    "url": "/sinbo/scm-2982-kahve-ve-baharat-ogutucu-krom-p-899201806?boutiqueId=61&merchantId=109324",
+    "uxLayout": "General Merchandise",
+    "variants": [
+      {
+        "attributeBeautifiedValue": "",
+        "attributeId": 0,
+        "attributeName": "",
+        "attributeType": "",
+        "attributeValue": "",
+        "availableForClaim": true,
+        "barcode": "8693807259300",
+        "discountedPriceInfo": "",
+        "fulfilmentType": "mp",
+        "groupTagIds": [],
+        "hasCollectable": true,
+        "isWinner": true,
+        "itemNumber": 1250657785,
+        "listingId": "0d773eb1459e4f652072fc3b0f8ccc30",
+        "lowerPriceMerchantListingExist": false,
+        "price": {
+          "couponApplicablePrice": 789,
+          "currency": "TRY",
+          "discountedPrice": {
+            "text": "789 TL",
+            "value": 789
+          },
+          "originalPrice": {
+            "text": "789 TL",
+            "value": 789
+          },
+          "profitMargin": 0,
+          "sellingPrice": {
+            "text": "789 TL",
+            "value": 789
+          }
+        },
+        "rushDeliveryMerchantListingExist": false,
+        "sellable": true,
+        "stamps": [
+          {
+            "text": "KARGO BEDAVA",
+            "type": 1
+          }
+        ],
+        "stock": null,
+        "unitInfo": {
+          "unitPrice": false,
+          "unitPriceText": false
+        }
+      }
+    ],
+    "walletRebate": {
+      "maxPrice": 10000,
+      "minPrice": 300,
+      "rebateRatio": 0.01
+    },
+    "webCategoryTree": [
+      {
+        "id": 144026,
+        "level": 3,
+        "name": "Kahve ve Baharat Öğütücü"
+      },
+      {
+        "id": 1354,
+        "level": 2,
+        "name": "Sofra & Mutfak"
+      },
+      {
+        "id": 145704,
+        "level": 1,
+        "name": "Ev ve Mobilya"
+      }
+    ]
+  },
+  "recoAbDecider": "",
+  "user": {
+    "isBuyer": false,
+    "isElite": false,
+    "loggedIn": false
+  }
+}

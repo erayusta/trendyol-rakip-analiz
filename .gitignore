@@ -1,0 +1,48 @@
+# Çevre değişkenleri
+#.env
+
+# Veri dosyaları
+price_data.json
+products.json
+all_competitor_prices.json
+
+# Geçici dosyalar
+page_source.html
+product_page_source.html
+product_json_*.txt
+product_json_error.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Sanal ortam
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
