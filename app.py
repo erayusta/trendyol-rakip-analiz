@@ -8,14 +8,13 @@ import time
 from datetime import datetime
 import json
 import logging
-from scraper import TrendyolScraper
 from dotenv import load_dotenv
 
 # .env dosyasını yükle
 load_dotenv()
 
 # Çevresel değişkenleri al
-PORT = int(os.getenv('DASHBOARD_PORT', 8053))
+PORT = int(os.getenv('DASHBOARD_PORT', 8054))
 DATA_FILE = os.getenv('DATA_FILE', 'price_data.json')
 COMPETITOR_DATA_FILE = os.getenv('COMPETITOR_DATA_FILE', 'all_competitor_prices.json')
 PRODUCT_DATA_DIR = os.getenv('PRODUCT_DATA_DIR', 'product_data')
@@ -175,9 +174,12 @@ def create_price_dataframe(data):
     df["En Ucuz"] = False
     for product_name in df["Ürün Adı"].unique():
         product_df = df[df["Ürün Adı"] == product_name]
-        min_price_idx = product_df["Fiyat"].idxmin()
-        if pd.notna(min_price_idx):
-            df.loc[min_price_idx, "En Ucuz"] = True
+        if not product_df.empty and product_df["Fiyat"].notna().any():
+            min_price = product_df["Fiyat"].min()
+            min_price_idx = product_df[product_df["Fiyat"] == min_price].index
+            if not min_price_idx.empty:
+                df.loc[min_price_idx, "En Ucuz"] = True
+                logger.info(f"'{product_name}' için en ucuz fiyat: {min_price}, satıcı: {df.loc[min_price_idx[0], 'Satıcı']}")
     
     return df
 
@@ -213,6 +215,10 @@ app.layout = html.Div([
         
         html.Div([
             html.H2("Tüm Ürünler ve Rakip Fiyatları"),
+            html.Div([
+                html.Button("Sadece Rakipleri Göster", id="show-competitors-button", className="control-button", n_clicks=0),
+                html.Button("Tümünü Göster", id="show-all-button", className="control-button", n_clicks=0),
+            ], style={"marginBottom": "10px"}),
             dash_table.DataTable(
                 id="product-table",
                 columns=[
@@ -250,7 +256,6 @@ app.layout = html.Div([
                 sort_action="native",
                 filter_action="native",
                 page_size=15,
-                markdown_options={"html": True},
             ),
         ], className="card"),
     ], className="content"),
@@ -271,18 +276,18 @@ def update_data(n_clicks):
     # İlk yükleme veya güncelleme isteği
     if n_clicks is not None:
         try:
-            scraper = TrendyolScraper()
-            new_data = scraper.analyze_all_products()
-            scraper.close()
+            # scraper = TrendyolScraper()
+            # new_data = scraper.analyze_all_products()
+            # scraper.close()
             
             # Zaman damgası ekle
-            timestamp = datetime.now().strftime("%d.%m.%Y %H:%M:%S")
-            for item in new_data:
-                item["last_update"] = timestamp
+            # timestamp = datetime.now().strftime("%d.%m.%Y %H:%M:%S")
+            # for item in new_data:
+            #     item["last_update"] = timestamp
             
             # Veriyi güncelle ve kaydet
-            data = new_data
-            save_data(data)
+            # data = new_data
+            # save_data(data)
             logger.info("Veriler başarıyla güncellendi.")
         except Exception as e:
             logger.error(f"Veri güncellenirken hata oluştu: {str(e)}")
@@ -297,7 +302,7 @@ def update_data(n_clicks):
     # En Ucuz sütununu daha kullanıcı dostu hale getir
     if not df.empty and "En Ucuz" in df.columns:
         df["En Ucuz"] = df.apply(
-            lambda row: "✅ En Ucuz" if row["En Ucuz"] else "",
+            lambda row: "✅ En Ucuz Fiyat!" if row["En Ucuz"] else "",
             axis=1
         )
     
@@ -383,6 +388,36 @@ def show_refresh_message(n_clicks):
     if n_clicks:
         return html.Div("Veriler güncellendi!", style={"marginTop": "10px", "color": "green"})
     return ""
+
+@app.callback(
+    Output("product-table", "data", allow_duplicate=True),
+    [Input("show-competitors-button", "n_clicks"),
+     Input("show-all-button", "n_clicks"),
+     Input("refresh-button", "n_clicks")],
+    [State("product-table", "data")],
+    prevent_initial_call=True
+)
+def filter_table(show_competitors, show_all, refresh_clicks, table_data):
+    ctx = dash.callback_context
+    if not ctx.triggered:
+        return table_data
+        
+    button_id = ctx.triggered[0]['prop_id'].split('.')[0]
+    
+    # Eğer refresh butonu tetiklendiyse, update_data callback'i zaten çalışacak
+    # Bu durumda hiçbir şey yapmayalım
+    if button_id == "refresh-button":
+        raise dash.exceptions.PreventUpdate
+    
+    if button_id == "show-competitors-button":
+        df = pd.DataFrame(table_data)
+        filtered_df = df[df["Satıcı"] != "Kendi Mağazam"]
+        return filtered_df.to_dict("records")
+    elif button_id == "show-all-button":
+        return table_data
+    
+    # Varsayılan olarak tüm verileri göster
+    return table_data
 
 # CSS stilleri
 app.index_string = '''
@@ -503,4 +538,4 @@ app.index_string = '''
 '''
 
 if __name__ == "__main__":
-    app.run_server(debug=True, port=8053)
+    app.run_server(debug=True, port=8054)

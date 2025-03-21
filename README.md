@@ -2,6 +2,8 @@
 
 Bu uygulama, Trendyol'daki kendi mağazanızın ürünlerini ve rakip satıcıların fiyatlarını takip etmenizi sağlayan bir kontrol panelidir. Selenium ve headless Chrome kullanarak Trendyol'dan veri çeker ve Dash ile görselleştirir.
 
+![alt text](image.png)
+
 ## Özellikler
 
 - Trendyol'daki ürünlerinizin otomatik olarak taranması

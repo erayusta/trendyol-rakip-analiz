@@ -11,6 +11,7 @@ page_source.html
 product_page_source.html
 product_json_*.txt
 product_json_error.txt
+product_data/*
 
 # Python
 __pycache__/
